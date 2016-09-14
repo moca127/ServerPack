@@ -1,0 +1,47 @@
+2016-9-15 00:12:02 [INFO] Loading nukkit.yml...
+2016-9-15 00:12:02 [INFO] Loading server properties...
+2016-9-15 00:12:02 [INFO] Korean (kor) 이 기본 언어로 선택되었습니다
+2016-9-15 00:12:02 [INFO] Minecraft: PE 서버 버전 v0.15.6 alpha 시작 중
+2016-9-15 00:12:02 [INFO] 서버가 0.0.0.0:19132 에서 열립니다
+2016-9-15 00:12:02 [INFO] 이 서버는 Nukkit 에서 버전 1.0dev "蘋果(Apple)派(Pie)" 으로 열립니다 (API 1.0.0)
+2016-9-15 00:12:02 [INFO] Nukkit 은 LGPL 라이센스 하에서 배포되고 있습니다
+2016-9-15 00:12:03 [INFO] 월드 "world" 준비 중
+2016-9-15 00:12:03 [INFO] GS4 상태 리스터 시작 중
+2016-9-15 00:12:03 [INFO] 쿼리가 19132 포트로 설정 되었습니다
+2016-9-15 00:12:03 [INFO] 쿼리가 0.0.0.0:19132 에서 시작되었습니다
+2016-9-15 00:12:03 [INFO] 기본 게임 모드: 서바이벌 모드
+2016-9-15 00:12:03 [INFO] 완료 (1.362초)! 도움말을 보시려면 "help" 또는 "?" 를 입력해 주세요
+2016-9-15 00:12:06 [INFO] [CONSOLE: 서버 중지 중...]
+2016-9-15 00:12:06 [INFO] 월드 "world" 로드 해제 중
+2016-9-15 00:12:06 [INFO] Stopping other threads
+2016-9-15 00:12:07 [INFO] Loading nukkit.yml...
+2016-9-15 00:12:07 [INFO] Loading server properties...
+2016-9-15 00:12:07 [INFO] Korean (kor) 이 기본 언어로 선택되었습니다
+2016-9-15 00:12:07 [INFO] Minecraft: PE 서버 버전 v0.15.6 alpha 시작 중
+2016-9-15 00:12:08 [INFO] 서버가 0.0.0.0:19132 에서 열립니다
+2016-9-15 00:12:08 [INFO] 이 서버는 Nukkit 에서 버전 1.0dev "蘋果(Apple)派(Pie)" 으로 열립니다 (API 1.0.0)
+2016-9-15 00:12:08 [INFO] Nukkit 은 LGPL 라이센스 하에서 배포되고 있습니다
+2016-9-15 00:12:08 [INFO] 월드 "world" 준비 중
+2016-9-15 00:12:08 [INFO] GS4 상태 리스터 시작 중
+2016-9-15 00:12:08 [INFO] 쿼리가 19132 포트로 설정 되었습니다
+2016-9-15 00:12:08 [INFO] 쿼리가 0.0.0.0:19132 에서 시작되었습니다
+2016-9-15 00:12:08 [INFO] 기본 게임 모드: 서바이벌 모드
+2016-9-15 00:12:08 [INFO] 완료 (1.196초)! 도움말을 보시려면 "help" 또는 "?" 를 입력해 주세요
+2016-9-15 00:12:10 [ALERT] java.io.IOException: 입력/출력 오류
+	at java.io.FileInputStream.read0(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:207)
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:166)
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:135)
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:243)
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:257)
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:194)
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2136)
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2126)
+	at jline.console.ConsoleReader.readBinding(ConsoleReader.java:2211)
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2460)
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2372)
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2360)
+	at cn.nukkit.command.CommandReader.readLine(CommandReader.java:47)
+	at cn.nukkit.command.CommandReader.run(CommandReader.java:61)
+
+2016-9-15 00:12:10 [EMERGENCY] RakNet crashed!
